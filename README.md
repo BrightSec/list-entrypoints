@@ -23,7 +23,7 @@ More information is available on Bright's:
 - [Website](https://www.brightsec.com/)
 - [Knowledge base](https://docs.brightsec.com/docs/quickstart)
 - [YouTube channel](https://www.youtube.com/channel/UCoIC0T1pmozq3eKLsUR2uUw)
-- [GitHub Actions](https://github.com/marketplace?query=neuralegion+)
+- [GitHub Actions](https://github.com/marketplace?query=brightsec+)
 
 # Inputs
 
@@ -70,7 +70,7 @@ A JSON-formatted list of entrypoints from the specified project.
 ```yaml
 steps:
   - name: List Project Entrypoints
-    uses: NeuraLegion/list-entrypoints@v1
+    uses: BrigtSec/list-entrypoints@v1
     with:
       api_token: ${{ secrets.BRIGHT_TOKEN }}
       project_id: ${{ secrets.PROJECT_ID }}
